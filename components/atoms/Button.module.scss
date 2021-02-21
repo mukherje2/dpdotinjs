@@ -1,0 +1,14 @@
+.btn {
+  color: #fff;
+  border-radius: 0.3rem;
+  background-image: linear-gradient(45deg, rgba(#2175d9, 0.37), rgba(#2789ff, 0.77));
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
