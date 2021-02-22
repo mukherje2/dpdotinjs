@@ -7,5 +7,5 @@ export default function List(props) {
 }
 
 function renderLists(items) {
-  return items.map((i) => <Item label={i} />);
+  return items.map((i) => <Item key={i.id} label={i.label} />);
 }

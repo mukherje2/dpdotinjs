@@ -2,7 +2,7 @@ import { menulist } from "../sitedata";
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import NavBar from "../components/organisms/NavBar";
-// import Carousel from "../components/organisms/Carousel";
+import Carousel from "../components/organisms/Carousel";
 
 export default function Home({ navmenu }) {
   // console.log(navmenu);
@@ -13,6 +13,7 @@ export default function Home({ navmenu }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar menuitems={navmenu} />
+      <Carousel />
     </div>
   );
 }

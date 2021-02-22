@@ -1,3 +1,9 @@
 .container {
   display: flex;
+  margin-right: 20rem;
+
+  div:first-child {
+    color: #eee;
+    font-weight: 600;
+  }
 }

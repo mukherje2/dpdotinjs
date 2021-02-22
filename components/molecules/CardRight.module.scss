@@ -1,0 +1,17 @@
+.container {
+  color: #fff;
+  border-radius: 1rem;
+  background-color: beige;
+  position: relative;
+  margin-right: 7.5rem;
+  // object-fit: contain;
+}
+
+.nxt_image {
+  // border-radius: 1rem;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 1rem;
+}

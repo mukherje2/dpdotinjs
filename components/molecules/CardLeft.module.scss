@@ -1,0 +1,26 @@
+.container {
+  padding-left: 7.5rem;
+  padding-right: 3.75rem;
+  padding-top: 5rem;
+}
+
+.tags {
+  margin: 2rem 0;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.play__card {
+  display: flex;
+  color: #fff;
+  margin: 3rem 0;
+
+  h3 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 1.6rem;
+  }
+}
